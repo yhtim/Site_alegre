@@ -1,0 +1,118 @@
+.container{
+	margin: 0 auto;
+	width: 1220px;
+}
+
+body{
+	font-family:"Lucida Sans Unicode", Verdana, sans-serif;
+	line-height: 1.6;
+	background: #b8d0d1  url('noise.png');
+}
+
+.lugar{
+	border-color: #CCC #999 #999 #CCC;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: rgba(241, 238, 200, 1);
+}
+
+.lugar h2 {
+	border-bottom: 1px dashed #5C6818;
+	margin: 0;
+}
+
+.lugar a {
+	color: #2C11AF;
+	font-weight: bold;
+}
+
+.lugar img {
+	height: 200px; /* e o width*?? */
+	width: 300px;
+	border: 1px solid black;
+	float: left;
+	margin: 10px 10px 0 0;
+	padding: 2px;
+}
+	
+a {
+	color: #2C11AF;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	background-color: black;
+}
+
+.clear{
+	/* signifca que não quer nenhum float dos lados */
+	clear: both; /*opções: none, left, right, both*/
+}
+
+footer{
+	text-align: center;
+	font-size: 12px;
+	
+}
+
+.todosLugares{
+	float: left;
+	width: 660px;
+}
+
+.notas{
+	background-color: rgba(241, 238, 200, 1);
+	padding: 20px;
+}
+.notas h3{
+	font-size: 14px;
+	margin-top:0;
+}
+.notas ol{
+	font-size: 14px;
+}
+
+.notas {
+	float: right;
+	right: 260px;
+}
+
+
+.nova{
+	margin-top: 15px;
+	border-color: #CCC #999 #999 #CCC;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 200px;
+	padding: 1px;
+	background-color: rgba(210,210,210,0.3);
+	float: right;
+}
+
+.tabela  {
+	
+	background-color: rgba(241, 238, 200, 1);
+	width: 500px;
+	float: right;
+	border-style: hidden;
+	border-collapse: collapse;
+	 
+}
+
+.tabela th, td{
+	border: 1px solid black ;
+	border-collapse: collpase;
+}
+
+.linhaDois{
+		text-align: right;
+}
+	
+.linhaum{
+		text-align: center;
+		width: 26%;
+}
+
